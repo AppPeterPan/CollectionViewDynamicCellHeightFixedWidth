@@ -29,7 +29,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWU-Iv-s0S">
                                             <rect key="frame" x="5" y="5" width="140" height="84"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" priority="999" constant="140" id="3yv-3K-Y49"/>
+                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="140" id="3yv-3K-Y49"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -46,7 +46,6 @@
                                     <constraint firstItem="tWU-Iv-s0S" firstAttribute="leading" secondItem="mxz-CM-tnF" secondAttribute="leading" constant="5" id="kRn-Yy-B3o"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="labelWidthConstraint" destination="3yv-3K-Y49" id="Bjy-qN-CbR"/>
                                     <outlet property="quoteLabel" destination="tWU-Iv-s0S" id="kHG-zf-k6h"/>
                                 </connections>
                             </collectionViewCell>

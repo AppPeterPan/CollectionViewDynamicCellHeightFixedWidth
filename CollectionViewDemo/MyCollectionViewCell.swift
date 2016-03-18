@@ -11,12 +11,5 @@ import UIKit
 class MyCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var quoteLabel: UILabel!
-    
-    @IBOutlet weak var labelWidthConstraint: NSLayoutConstraint!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        self.labelWidthConstraint.constant = (UIScreen.mainScreen().bounds.width - 30)/2
-        
-    }
+
 }
